@@ -9,7 +9,7 @@ _Does not currently work on windows_
 > NOTE: Requires the all mighty `--allow-run` option as it spawns the subprocess `ifconfig` under the hood, to fetch the network interfaces.
 
 ```typescript
-import { getNetworkAddr } from 'https://deno.land/x/deno-local-ip/mod.ts';
+import { getNetworkAddr } from 'https://deno.land/x/local_ip/mod.ts';
 
 const netAddr = await getNetworkAddr(); // 192.168.0.17
 ```
