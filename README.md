@@ -6,7 +6,7 @@ _Does work on windows, linux and macOS!_
 
 ## Usage
 
-> NOTE: Requires the all mighty `--allow-run` option as it spawns the subprocess `ifconfig` under the hood, to fetch the network interfaces.
+> NOTE: Requires the all mighty `--allow-run` option as it spawns the subprocess `ifconfig`/`ipconfig` under the hood, to fetch the network interfaces.
 
 ```typescript
 import { getNetworkAddr } from 'https://deno.land/x/local_ip/mod.ts';
