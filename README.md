@@ -2,7 +2,7 @@
 
 Tiny module for Deno to get local network interface address.
 
-_Does not currently work on windows_
+_Does work on windows, linux and macOS!_
 
 ## Usage
 
